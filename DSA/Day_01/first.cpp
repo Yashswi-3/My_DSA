@@ -31,6 +31,6 @@ int main(){
     cout << d << " : it gives 0 bec it is stored in int variable, it will convert 0.4 into 0 to make it int ! " << endl ;
 
     float g = 2.0 / 5 ;
-    cout << g << " : it is an float by int so it gives float .";
+    cout << g << " : it is an float by int so it gives float ."
 
 }
