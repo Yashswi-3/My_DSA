@@ -5,7 +5,7 @@ int firstOcc(int arr[] , int n , int key){
     int start = 0 ;
     int end = n - 1 ;
     int mid = start + (end - start)/2 ;
-    int ans ;
+    int ans = -1 ;
 
     while ( start <= end ) {
 
@@ -28,7 +28,7 @@ int lastOcc(int arr[], int n , int key){
     int start = 0 ;
     int end = n -1 ;
     int mid = start + (end - start)/2 ;
-    int ans ;
+    int ans = -1 ;
 
     while ( start <= end ){
 
@@ -66,7 +66,13 @@ int main(){
         cout << arr[i] << " " ;
     }
 
-    cout << "THe first occ " << firstOcc(arr , size , key) ;
-    cout << "THe last occ " << lastOcc(arr , size , key) ;
+    cout << endl ;
+    cout << "Enter the Key you want to search : " << endl ;
+    cin >> key ;
+
+    cout << endl ;
+
+    cout << "THe first occ " << firstOcc(arr , size , key) << endl ;
+    cout << "THe last occ " << lastOcc(arr , size , key) << endl ;
 
 }
