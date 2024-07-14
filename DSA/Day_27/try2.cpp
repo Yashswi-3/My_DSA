@@ -3,8 +3,7 @@
 #include <string>
 using namespace std;
 
-long long findTheArrayConcVal(vector<int>& nums) {
-    long long tans = 0; // Use long long as the return type specifies
+long long findTheArrayConcVal(vector<int>& nums) {    long long tans = 0; // Use long long as the return type specifies
     int s = 0;
     int e = nums.size() - 1;
 
