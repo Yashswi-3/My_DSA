@@ -1,0 +1,5 @@
+Hff, today i was unconcisious i didn't do anything and wasted todays time.
+seriously today is the third day and i didn't do anything.
+
+Day Done = 3 ;
+Day Remaining = 362 ;
