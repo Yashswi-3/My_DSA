@@ -7,3 +7,4 @@ int main() {
     cout << "I was Concisious today! ," << endl ;
     cout << "I didn't think about the why but i have the prsence of mind ," << endl ;
 }
+    
