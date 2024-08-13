@@ -3,8 +3,8 @@ but from today it's going to be changed , i have an time table and doning impora
 
 Day Done - 12 ,
 Day left - 353 ,
-DSA Lecture - 0 min ,
-DSA Questions - 0 Questions ,
-Machine learning - 0 min ,
+DSA Lecture - 2 min ,
+DSA Questions - 1 Questions ,
+Machine learning - 60 min ,
 Project - 0 min ,
 Todays Date - 12/08/2024 .
