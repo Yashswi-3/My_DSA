@@ -1,7 +1,7 @@
 Day Done - 21 ,
 Day left - 334 ,
-DSA Lecture - 0 min ,
-DSA Questions - 0 Questions ,
+DSA Lecture - 50 min ,
+DSA Questions - 1 Questions ,
 Machine learning - 0 min ,
 Project - 0 min ,
 Todays Date - 21/08/2024 .
