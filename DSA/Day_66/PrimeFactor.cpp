@@ -12,14 +12,22 @@ bool IsPrime(int x){
     else return false ;
 }
 
+int countPrimes(int n) {
+        int cnt=0 ;
+        for(int i=2 ; i<=n ; i++){
+            if (IsPrime(i)) cnt++ ;
+        }
+        return cnt;
+    }
 
 int main(){
 
     int x;
     cout << "Enter the num : " ;
     cin >> x ;
-    if(IsPrime(x)) cout<< "Is Prime" ;
-    else cout<< "Not Prime" ;
+    if(IsPrime(x)) cout<< "Is Prime" << endl ;
+    else cout<< "Not Prime" << endl ;
+    cout << "Number of Prime till " << x << " including it is " << countPrimes(x) ;
 
 
 }
