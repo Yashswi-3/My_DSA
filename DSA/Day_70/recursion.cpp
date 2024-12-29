@@ -9,11 +9,10 @@ class Solution {
         long long factorial = 1;
         long long i = 1;
         
-        // Generate factorials while they are <= n
         while (factorial <= n) {
             result.push_back(factorial);
             i++;
-            factorial *= i;  // Compute the next factorial
+            factorial *= i;  
         }
         
         return result;
@@ -28,6 +27,5 @@ int main() {
     for (long long num : res) {
         cout << num << " ";
     }
-    // Output: 1 2 6
     return 0;
 }
