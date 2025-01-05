@@ -28,9 +28,9 @@ int main() {
     vector<int> nums2 = {2, 1, 3, 4};
     vector<int> nums3 = {1, 2, 3};
 
-    cout << (ob.check(nums1) ? "true" : "false") << endl; // Output: true
-    cout << (ob.check(nums2) ? "true" : "false") << endl; // Output: false
-    cout << (ob.check(nums3) ? "true" : "false") << endl; // Output: true
+    cout << (ob.check(nums1) ? "true" : "false") << endl; 
+    cout << (ob.check(nums2) ? "true" : "false") << endl; 
+    cout << (ob.check(nums3) ? "true" : "false") << endl; 
 
     return 0;
 }
