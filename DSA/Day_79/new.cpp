@@ -1,9 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
-int main{
-
-    cout<< "jakldhf" ;
-
+int main(){
+    cout<<"hekhd" ;
 }
