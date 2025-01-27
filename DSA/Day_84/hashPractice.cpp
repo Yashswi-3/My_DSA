@@ -10,10 +10,10 @@ int main(){
         cin >> arr[i] ;
     }
 
-    int hash[n] = {0};
+    int arr1[n] = {0};
 
     for(int i=0 ; i<n ; i++){
-        hash[arr[i]] += 1 ;
+        arr1[arr[i]] += 1 ;
     }
 
     int a ; 
@@ -23,7 +23,7 @@ int main(){
         int num ; 
         cin >> num ;
 
-        cout << hash[num] << endl ;
+        cout << arr1[num] << endl ;
     }
     
 
