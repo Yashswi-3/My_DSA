@@ -24,4 +24,8 @@ int main() {
         cout << hash[n] << endl ;
     }
 
+    for(int i=0 ; i<n ; i++){
+        cout <<  hash[i] << " " ;
+    }
+
 }
