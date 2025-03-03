@@ -3,37 +3,22 @@ using namespace std;
 
 class Solution {
     public:
-        vector<vector<int>> mergeArrays(vector<vector<int>>& nums1, vector<vector<int>>& nums2) {
-            vector<vector<int>> result;
-            int i = 0, j = 0;
+        vector<int> pivotArray(vector<int>& nums, int pivot) {
+            vector<int> less_than, equal_to, greater_than;
             
-            while (i < nums1.size() && j < nums2.size()) {
-                if (nums1[i][0] == nums2[j][0]) {  
-                    result.push_back({nums1[i][0], nums1[i][1] + nums2[j][1]});
-                    i++;
-                    j++;
-                } 
-                else if (nums1[i][0] < nums2[j][0]) {  
-                    result.push_back(nums1[i]);
-                    i++;
-                } 
-                else {  
-                    result.push_back(nums2[j]);
-                    j++;
-                }
+            for (int num : nums) {
+                if (num < pivot) less_than.push_back(num);
+                else if (num == pivot) equal_to.push_back(num);
+                else greater_than.push_back(num);
             }
-    
-            while (i < nums1.size()) {
-                result.push_back(nums1[i]);
-                i++;
-            }
-    
-            while (j < nums2.size()) {
-                result.push_back(nums2[j]);
-                j++;
-            }
-    
+            
+            vector<int> result;
+            result.insert(result.end(), less_than.begin(), less_than.end());
+            result.insert(result.end(), equal_to.begin(), equal_to.end());
+            result.insert(result.end(), greater_than.begin(), greater_than.end());
+            
             return result;
         }
     };
+    
     
