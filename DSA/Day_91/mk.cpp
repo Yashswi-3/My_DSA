@@ -21,3 +21,16 @@ public:
         return maxLen;
     }
 };
+
+int main() {
+    Solution sol;
+
+    vector<int> nums1 = {1, 3, 8, 48, 10};
+    cout << sol.longestNiceSubarray(nums1) << endl;  
+
+    vector<int> nums2 = {3, 1, 5, 11, 13};
+    cout << sol.longestNiceSubarray(nums2) << endl;  
+
+    vector<int> nums3 = {1, 2, 4, 8, 16};
+    cout << sol.longestNiceSubarray(nums3) << endl;  
+}
